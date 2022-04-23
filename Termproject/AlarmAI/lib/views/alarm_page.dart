@@ -156,7 +156,7 @@ class _AlarmPageState extends State<AlarmPage> {
                                     onPressed: () {
                                       deleteAlarm(alarm.id);
                                     }),
-                                SizedBox(width: 50),
+                                SizedBox(width: 20),
                                 IconButton(
                                     icon: Icon(Icons.edit),
                                     color: Colors.white,
